@@ -1,0 +1,167 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Nunito;
+}
+
+#welcome {
+    height: 100vh;
+}
+
+#description {
+    height: 100vh;
+}
+
+#capacites {
+    height: 100vh;
+}
+#plus {
+    height: 100vh;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("img/back1.jpg");
+
+    /* Set a specific height */
+    height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("img/back2.png");
+
+    /* Set a specific height */
+    height: auto;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("img/back3.webp");
+
+    /* Set a specific height */
+    height: auto;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url("img/back4.jpg");
+
+    /* Set a specific height */
+    height: auto;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax5 {
+    /* The image used */
+    background-image: url("img/back5.jpg");
+
+    /* Set a specific height */
+    height: auto;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax6 {
+    /* The image used */
+    background-image: url("img/back6.jpg");
+
+    /* Set a specific height */
+    height: auto;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax7 {
+    /* The image used */
+    background-image: url("img/back7.jpg");
+
+    /* Set a specific height */
+    height: auto;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+iframe{
+    overflow:hidden;
+}
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.resp-iframe {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95vh;
+    border: 0;
+}
+
+/*Floating Back-To-Top Button*/
+#myBtn {
+    position: fixed;
+    bottom: 25px;
+    float: right;
+    right: 5%;
+    left: 95%;
+    max-width: 60px;
+    width: 100%;
+    font-size: 12px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100,100,100);
+    padding: 6px;
+    border-radius: 4px;
+
+}
+
+#myBtn:hover {
+    background-color: #7dbbf1;
+}
+
